@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3E2833BD065A3BA2235707 /* FreelanceInvoiceTrackerApp.swift */ = {isa = PBXBuildFile; fileRef = 5733E4C79E915B71AF1F8CB4 /* FreelanceInvoiceTrackerApp.swift */; };
+		6DD53D8DF2CF58AC8308AFB8 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = 42E61816AD7A52079D20B17C /* ContentView.swift */; };
+		B4168C43456652BEADF4ABEA /* Client.swift */ = {isa = PBXBuildFile; fileRef = EED40411302C5C998D4925EC /* Client.swift */; };
+		1CEAE75E8D5F531891869E5D /* Invoice.swift */ = {isa = PBXBuildFile; fileRef = B477D962933E53C2B6802854 /* Invoice.swift */; };
+		66132C486C7659A6A5F1D57F /* InvoiceCategory.swift */ = {isa = PBXBuildFile; fileRef = B448BDE2234A54EF904EC12D /* InvoiceCategory.swift */; };
+		5176967E31CE556E8F3FB961 /* BiometricAuthService.swift */ = {isa = PBXBuildFile; fileRef = 39A56E7318AC5E5DA6F8631E /* BiometricAuthService.swift */; };
+		0996B302A7A458DAB905F631 /* InvoiceStorageService.swift */ = {isa = PBXBuildFile; fileRef = FB1CE5E22EF754419C22EFFB /* InvoiceStorageService.swift */; };
+		BE41F9ECB96D5CFA939530EC /* AppConstants.swift */ = {isa = PBXBuildFile; fileRef = 48D95E43F4C75A34BCA2DBAF /* AppConstants.swift */; };
+		77C9E89831A1543EBFCBDCF2 /* CurrencyFormatter.swift */ = {isa = PBXBuildFile; fileRef = A38CF63D3F435FFD9B5D7661 /* CurrencyFormatter.swift */; };
+		3D1379DE6E7E5E87BAE43169 /* DateFormatterHelper.swift */ = {isa = PBXBuildFile; fileRef = D3206F28B04F5BD9BF5518A3 /* DateFormatterHelper.swift */; };
+		D3D1ECFDBED653E9848F0855 /* AddInvoiceViewModel.swift */ = {isa = PBXBuildFile; fileRef = F53AF78913AD5B7CB18BED2C /* AddInvoiceViewModel.swift */; };
+		1C69C0AA5D78512A9A4A5335 /* AuthenticationViewModel.swift */ = {isa = PBXBuildFile; fileRef = 9DA8FEEFAA0856EE846939EB /* AuthenticationViewModel.swift */; };
+		BC1216CE978C5FEBB57B6774 /* DashboardViewModel.swift */ = {isa = PBXBuildFile; fileRef = EDD9BCF83F4553F98795C05E /* DashboardViewModel.swift */; };
+		C2E1A93C17E053C49AD8706C /* InvoiceDetailViewModel.swift */ = {isa = PBXBuildFile; fileRef = 97B679BA652D5B4ABEFEB500 /* InvoiceDetailViewModel.swift */; };
+		86858C6C98E75FCAA6AE9C03 /* InvoiceListViewModel.swift */ = {isa = PBXBuildFile; fileRef = 9B5394519F515084ABEA04FF /* InvoiceListViewModel.swift */; };
+		069B041304E25BCD9DA88C5B /* BiometricAuthView.swift */ = {isa = PBXBuildFile; fileRef = 3AB96DD6A06B5EF29DD5F558 /* BiometricAuthView.swift */; };
+		BFF9A6361D5557D9970BEC07 /* LoginView.swift */ = {isa = PBXBuildFile; fileRef = FB3270FCC8A1540499B13E5F /* LoginView.swift */; };
+		1B91ED8F1DBB56D1B722209A /* BrandLogoView.swift */ = {isa = PBXBuildFile; fileRef = 1D1AD45D6D9C5A3B9BD26B6E /* BrandLogoView.swift */; };
+		7CE217748866574F938B8268 /* EmptyStateView.swift */ = {isa = PBXBuildFile; fileRef = 213533810001586CA447C33A /* EmptyStateView.swift */; };
+		118096CEE8A7514FBBDAE420 /* SearchBarView.swift */ = {isa = PBXBuildFile; fileRef = FE6E0649D9A65CBB85D41732 /* SearchBarView.swift */; };
+		ECCC6806CD475533AE64D183 /* StatusBadgeView.swift */ = {isa = PBXBuildFile; fileRef = C6A35C2A8FB05281BECAD0EE /* StatusBadgeView.swift */; };
+		0804D1362A875F50A2DE0921 /* SummaryCardView.swift */ = {isa = PBXBuildFile; fileRef = 0C8812ED8CDF5CF3A764E8F8 /* SummaryCardView.swift */; };
+		2EE2EFE16F83511C95EB487E /* DashboardView.swift */ = {isa = PBXBuildFile; fileRef = D398CF8ABD5855AB8D9263CF /* DashboardView.swift */; };
+		3974CAD92584529F9862E889 /* AddInvoiceView.swift */ = {isa = PBXBuildFile; fileRef = 39EFA17E61F35BCA9D5825B3 /* AddInvoiceView.swift */; };
+		AA19623F6A6F5D27B2F4663F /* EditInvoiceView.swift */ = {isa = PBXBuildFile; fileRef = AE1517698B925C3B9D44FD40 /* EditInvoiceView.swift */; };
+		38D898F1A0725D02A77D5DE0 /* InvoiceCardView.swift */ = {isa = PBXBuildFile; fileRef = 6D368E7B0E8D55C7A8E99E1F /* InvoiceCardView.swift */; };
+		E72C5081471A5299873392B8 /* InvoiceDetailView.swift */ = {isa = PBXBuildFile; fileRef = C6F5E64FF03752958D54382C /* InvoiceDetailView.swift */; };
+		331FD99CBD595EBBBD83A962 /* InvoiceListView.swift */ = {isa = PBXBuildFile; fileRef = 67AAD0725CDF5139BDD80B57 /* InvoiceListView.swift */; };
+		06A3459549295320B1E9F42B /* SettingsView.swift */ = {isa = PBXBuildFile; fileRef = C1BA39701FFC56A1A51592BC /* SettingsView.swift */; };
+		5B6D2108DB4356E3BC59FBD2 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = DBA5D3560470585C99EDCF94 /* Assets.xcassets */; };
+		59CE90A5F53E5C6D93A594F0 /* FreelanceInvoiceTrackerTests.swift */ = {isa = PBXBuildFile; fileRef = C0B4F951935A5008BA8264DE /* FreelanceInvoiceTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F84B698650057DB840FD604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19B9903A455167A77E4BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA97E43D86EA5529A2397C92;
+			remoteInfo = FreelanceInvoiceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E529B2A302E55E1F8EB3F146 /* FreelanceInvoiceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreelanceInvoiceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2B765B11E25778A0FCC44E /* FreelanceInvoiceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreelanceInvoiceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5733E4C79E915B71AF1F8CB4 /* FreelanceInvoiceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FreelanceInvoiceTrackerApp.swift"; sourceTree = "<group>"; };
+		42E61816AD7A52079D20B17C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		EED40411302C5C998D4925EC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client.swift"; sourceTree = "<group>"; };
+		B477D962933E53C2B6802854 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Invoice.swift"; sourceTree = "<group>"; };
+		B448BDE2234A54EF904EC12D /* InvoiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceCategory.swift"; sourceTree = "<group>"; };
+		39A56E7318AC5E5DA6F8631E /* BiometricAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BiometricAuthService.swift"; sourceTree = "<group>"; };
+		FB1CE5E22EF754419C22EFFB /* InvoiceStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceStorageService.swift"; sourceTree = "<group>"; };
+		48D95E43F4C75A34BCA2DBAF /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppConstants.swift"; sourceTree = "<group>"; };
+		A38CF63D3F435FFD9B5D7661 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrencyFormatter.swift"; sourceTree = "<group>"; };
+		D3206F28B04F5BD9BF5518A3 /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatterHelper.swift"; sourceTree = "<group>"; };
+		F53AF78913AD5B7CB18BED2C /* AddInvoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddInvoiceViewModel.swift"; sourceTree = "<group>"; };
+		9DA8FEEFAA0856EE846939EB /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationViewModel.swift"; sourceTree = "<group>"; };
+		EDD9BCF83F4553F98795C05E /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardViewModel.swift"; sourceTree = "<group>"; };
+		97B679BA652D5B4ABEFEB500 /* InvoiceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceDetailViewModel.swift"; sourceTree = "<group>"; };
+		9B5394519F515084ABEA04FF /* InvoiceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceListViewModel.swift"; sourceTree = "<group>"; };
+		3AB96DD6A06B5EF29DD5F558 /* BiometricAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BiometricAuthView.swift"; sourceTree = "<group>"; };
+		FB3270FCC8A1540499B13E5F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView.swift"; sourceTree = "<group>"; };
+		1D1AD45D6D9C5A3B9BD26B6E /* BrandLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrandLogoView.swift"; sourceTree = "<group>"; };
+		213533810001586CA447C33A /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		FE6E0649D9A65CBB85D41732 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBarView.swift"; sourceTree = "<group>"; };
+		C6A35C2A8FB05281BECAD0EE /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusBadgeView.swift"; sourceTree = "<group>"; };
+		0C8812ED8CDF5CF3A764E8F8 /* SummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SummaryCardView.swift"; sourceTree = "<group>"; };
+		D398CF8ABD5855AB8D9263CF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView.swift"; sourceTree = "<group>"; };
+		39EFA17E61F35BCA9D5825B3 /* AddInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddInvoiceView.swift"; sourceTree = "<group>"; };
+		AE1517698B925C3B9D44FD40 /* EditInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditInvoiceView.swift"; sourceTree = "<group>"; };
+		6D368E7B0E8D55C7A8E99E1F /* InvoiceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceCardView.swift"; sourceTree = "<group>"; };
+		C6F5E64FF03752958D54382C /* InvoiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceDetailView.swift"; sourceTree = "<group>"; };
+		67AAD0725CDF5139BDD80B57 /* InvoiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvoiceListView.swift"; sourceTree = "<group>"; };
+		C1BA39701FFC56A1A51592BC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		DBA5D3560470585C99EDCF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		C0B4F951935A5008BA8264DE /* FreelanceInvoiceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FreelanceInvoiceTrackerTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91558E15DAF5353854416D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D96A62C33195BC8BB765482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F4CC220E7E5EC49728492D = {
+			isa = PBXGroup;
+			children = (
+				EB1618E01B075019A6ED6B9C /* FreelanceInvoiceTracker */,
+				19475C5F387E5887A54B8569 /* FreelanceInvoiceTrackerTests */,
+				E3D591A21CA650E79FC4BE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D591A21CA650E79FC4BE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E529B2A302E55E1F8EB3F146 /* FreelanceInvoiceTracker.app */,
+				2B2B765B11E25778A0FCC44E /* FreelanceInvoiceTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19475C5F387E5887A54B8569 /* FreelanceInvoiceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B4F951935A5008BA8264DE /* FreelanceInvoiceTrackerTests.swift */,
+			);
+			path = FreelanceInvoiceTrackerTests;
+			sourceTree = "<group>";
+		};
+		EB1618E01B075019A6ED6B9C /* FreelanceInvoiceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				89886A1B449B5248A57560A2 /* App */,
+				195A2CF2575D53E8A757FAD0 /* Models */,
+				B74EE68C66305428AA87DB5F /* Resources */,
+				4EB8A5C9F42852508A0968B5 /* Services */,
+				5A656BA6EC9C5318A06EE9A8 /* Utilities */,
+				1C895D0D04385399BF383C9E /* ViewModels */,
+				9F3BABA99496511A81283FCB /* Views */,
+				42E61816AD7A52079D20B17C /* ContentView.swift */,
+			);
+			path = "FreelanceInvoiceTracker";
+			sourceTree = "<group>";
+		};
+		89886A1B449B5248A57560A2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5733E4C79E915B71AF1F8CB4 /* FreelanceInvoiceTrackerApp.swift */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		195A2CF2575D53E8A757FAD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EED40411302C5C998D4925EC /* Client.swift */,
+				B477D962933E53C2B6802854 /* Invoice.swift */,
+				B448BDE2234A54EF904EC12D /* InvoiceCategory.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		B74EE68C66305428AA87DB5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5D3560470585C99EDCF94 /* Assets.xcassets */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		4EB8A5C9F42852508A0968B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				39A56E7318AC5E5DA6F8631E /* BiometricAuthService.swift */,
+				FB1CE5E22EF754419C22EFFB /* InvoiceStorageService.swift */,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		5A656BA6EC9C5318A06EE9A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				48D95E43F4C75A34BCA2DBAF /* AppConstants.swift */,
+				A38CF63D3F435FFD9B5D7661 /* CurrencyFormatter.swift */,
+				D3206F28B04F5BD9BF5518A3 /* DateFormatterHelper.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		1C895D0D04385399BF383C9E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F53AF78913AD5B7CB18BED2C /* AddInvoiceViewModel.swift */,
+				9DA8FEEFAA0856EE846939EB /* AuthenticationViewModel.swift */,
+				EDD9BCF83F4553F98795C05E /* DashboardViewModel.swift */,
+				97B679BA652D5B4ABEFEB500 /* InvoiceDetailViewModel.swift */,
+				9B5394519F515084ABEA04FF /* InvoiceListViewModel.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		9F3BABA99496511A81283FCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA9854DFBF175ECBB0CB1BD9 /* Authentication */,
+				659F1E3A6DA652D68B08DE57 /* Components */,
+				21BCEDCAB9BF5A20B3966CC5 /* Dashboard */,
+				6EEDFCB3E9085F1D8D88462D /* Invoice */,
+				493A0B7B242A59CFAD9BB953 /* Settings */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		CA9854DFBF175ECBB0CB1BD9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3AB96DD6A06B5EF29DD5F558 /* BiometricAuthView.swift */,
+				FB3270FCC8A1540499B13E5F /* LoginView.swift */,
+			);
+			path = "Authentication";
+			sourceTree = "<group>";
+		};
+		659F1E3A6DA652D68B08DE57 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AD45D6D9C5A3B9BD26B6E /* BrandLogoView.swift */,
+				213533810001586CA447C33A /* EmptyStateView.swift */,
+				FE6E0649D9A65CBB85D41732 /* SearchBarView.swift */,
+				C6A35C2A8FB05281BECAD0EE /* StatusBadgeView.swift */,
+				0C8812ED8CDF5CF3A764E8F8 /* SummaryCardView.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		21BCEDCAB9BF5A20B3966CC5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D398CF8ABD5855AB8D9263CF /* DashboardView.swift */,
+			);
+			path = "Dashboard";
+			sourceTree = "<group>";
+		};
+		6EEDFCB3E9085F1D8D88462D /* Invoice */ = {
+			isa = PBXGroup;
+			children = (
+				39EFA17E61F35BCA9D5825B3 /* AddInvoiceView.swift */,
+				AE1517698B925C3B9D44FD40 /* EditInvoiceView.swift */,
+				6D368E7B0E8D55C7A8E99E1F /* InvoiceCardView.swift */,
+				C6F5E64FF03752958D54382C /* InvoiceDetailView.swift */,
+				67AAD0725CDF5139BDD80B57 /* InvoiceListView.swift */,
+			);
+			path = "Invoice";
+			sourceTree = "<group>";
+		};
+		493A0B7B242A59CFAD9BB953 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA39701FFC56A1A51592BC /* SettingsView.swift */,
+			);
+			path = "Settings";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA97E43D86EA5529A2397C92 /* FreelanceInvoiceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE0E152F9A15483A93F949B /* Build configuration list for PBXNativeTarget "FreelanceInvoiceTracker" */;
+			buildPhases = (
+				71616137285D5726BB2F9099 /* Sources */,
+				E91558E15DAF5353854416D6 /* Frameworks */,
+				673CA10E153C532F916F26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreelanceInvoiceTracker;
+			productName = FreelanceInvoiceTracker;
+			productReference = E529B2A302E55E1F8EB3F146 /* FreelanceInvoiceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687F455516815F35A8E1B09F /* FreelanceInvoiceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B09A0B7D195A9980D7949D /* Build configuration list for PBXNativeTarget "FreelanceInvoiceTrackerTests" */;
+			buildPhases = (
+				D3CEAD5106CD5C709B0CFA18 /* Sources */,
+				9D96A62C33195BC8BB765482 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14BE070714551899C47C751 /* PBXTargetDependency */,
+			);
+			name = FreelanceInvoiceTrackerTests;
+			productName = FreelanceInvoiceTrackerTests;
+			productReference = 2B2B765B11E25778A0FCC44E /* FreelanceInvoiceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE19B9903A455167A77E4BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FA97E43D86EA5529A2397C92 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					687F455516815F35A8E1B09F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FA97E43D86EA5529A2397C92;
+					};
+				};
+			};
+			buildConfigurationList = E56D45E8AD8351E8A1C88FC0 /* Build configuration list for PBXProject "FreelanceInvoiceTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F4CC220E7E5EC49728492D;
+			productRefGroup = E3D591A21CA650E79FC4BE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA97E43D86EA5529A2397C92 /* FreelanceInvoiceTracker */,
+				687F455516815F35A8E1B09F /* FreelanceInvoiceTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673CA10E153C532F916F26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6D2108DB4356E3BC59FBD2 /* Assets.xcassets */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71616137285D5726BB2F9099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E2833BD065A3BA2235707 /* FreelanceInvoiceTrackerApp.swift */,
+				6DD53D8DF2CF58AC8308AFB8 /* ContentView.swift */,
+				B4168C43456652BEADF4ABEA /* Client.swift */,
+				1CEAE75E8D5F531891869E5D /* Invoice.swift */,
+				66132C486C7659A6A5F1D57F /* InvoiceCategory.swift */,
+				5176967E31CE556E8F3FB961 /* BiometricAuthService.swift */,
+				0996B302A7A458DAB905F631 /* InvoiceStorageService.swift */,
+				BE41F9ECB96D5CFA939530EC /* AppConstants.swift */,
+				77C9E89831A1543EBFCBDCF2 /* CurrencyFormatter.swift */,
+				3D1379DE6E7E5E87BAE43169 /* DateFormatterHelper.swift */,
+				D3D1ECFDBED653E9848F0855 /* AddInvoiceViewModel.swift */,
+				1C69C0AA5D78512A9A4A5335 /* AuthenticationViewModel.swift */,
+				BC1216CE978C5FEBB57B6774 /* DashboardViewModel.swift */,
+				C2E1A93C17E053C49AD8706C /* InvoiceDetailViewModel.swift */,
+				86858C6C98E75FCAA6AE9C03 /* InvoiceListViewModel.swift */,
+				069B041304E25BCD9DA88C5B /* BiometricAuthView.swift */,
+				BFF9A6361D5557D9970BEC07 /* LoginView.swift */,
+				1B91ED8F1DBB56D1B722209A /* BrandLogoView.swift */,
+				7CE217748866574F938B8268 /* EmptyStateView.swift */,
+				118096CEE8A7514FBBDAE420 /* SearchBarView.swift */,
+				ECCC6806CD475533AE64D183 /* StatusBadgeView.swift */,
+				0804D1362A875F50A2DE0921 /* SummaryCardView.swift */,
+				2EE2EFE16F83511C95EB487E /* DashboardView.swift */,
+				3974CAD92584529F9862E889 /* AddInvoiceView.swift */,
+				AA19623F6A6F5D27B2F4663F /* EditInvoiceView.swift */,
+				38D898F1A0725D02A77D5DE0 /* InvoiceCardView.swift */,
+				E72C5081471A5299873392B8 /* InvoiceDetailView.swift */,
+				331FD99CBD595EBBBD83A962 /* InvoiceListView.swift */,
+				06A3459549295320B1E9F42B /* SettingsView.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CEAD5106CD5C709B0CFA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CE90A5F53E5C6D93A594F0 /* FreelanceInvoiceTrackerTests.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D14BE070714551899C47C751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA97E43D86EA5529A2397C92 /* FreelanceInvoiceTracker */;
+			targetProxy = 3F84B698650057DB840FD604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0991F27EBE7A5AA496F479AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ENABLE_TESTABILITY = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD37FA4D420F5483AEE67F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A7FE83C5A7C507F82F05728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "InvoiceTracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authenticate with Face ID to protect your freelance invoices and payment records.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freelance.invoicetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F50D2AE2006F5C0EA790EF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "InvoiceTracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authenticate with Face ID to protect your freelance invoices and payment records.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freelance.invoicetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		31E0CA6905245F2391558963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freelance.invoicetrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreelanceInvoiceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreelanceInvoiceTracker";
+			};
+			name = Debug;
+		};
+		B0F44B1159E6511EABF01B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freelance.invoicetrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreelanceInvoiceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreelanceInvoiceTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E56D45E8AD8351E8A1C88FC0 /* Build configuration list for PBXProject "FreelanceInvoiceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0991F27EBE7A5AA496F479AD /* Debug */,
+				DD37FA4D420F5483AEE67F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE0E152F9A15483A93F949B /* Build configuration list for PBXNativeTarget "FreelanceInvoiceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7FE83C5A7C507F82F05728 /* Debug */,
+				F50D2AE2006F5C0EA790EF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B09A0B7D195A9980D7949D /* Build configuration list for PBXNativeTarget "FreelanceInvoiceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E0CA6905245F2391558963 /* Debug */,
+				B0F44B1159E6511EABF01B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AE19B9903A455167A77E4BC5 /* Project object */;
+}

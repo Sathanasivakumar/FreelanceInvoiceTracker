@@ -1,0 +1,78 @@
+# =====================
+# Xcode / Swift
+# =====================
+.DS_Store
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-to-trash
+*.xcuserstate
+*.xcscmblueprint
+
+# =====================
+# Build Artifacts
+# =====================
+DerivedData/
+build/
+*.build/
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# =====================
+# CocoaPods (not used here, but good to have)
+# =====================
+Pods/
+*.xcworkspace
+
+# =====================
+# Swift Package Manager
+# =====================
+.build/
+.swiftpm/
+*.resolved
+
+# =====================
+# macOS
+# =====================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# =====================
+# Playground
+# =====================
+timeline.xctimeline
+playground.xcworkspace
+
+# =====================
+# User settings
+# =====================
+*.xcscmblueprint
